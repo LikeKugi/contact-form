@@ -1,0 +1,519 @@
+{
+ "version": 1,
+ "at": "2026-10-31T15:08:23.002Z",
+ "seed": 935441082,
+ "redraws": 0,
+ "input": {
+  "brief": "A personal contact form: three fields to write to one person, styled as private correspondence rather than a corporate contact page",
+  "sector": "personal-portfolio",
+  "tone": null,
+  "have": [],
+  "keep": [],
+  "avoid": [],
+  "sections": [
+   "intro",
+   "contact",
+   "footer"
+  ],
+  "direction": "page-is-the-object"
+ },
+ "imagery": "atmosphere",
+ "allow": [],
+ "direction": {
+  "id": "page-is-the-object",
+  "name": "The page is the object",
+  "sectors": [
+   "restaurant",
+   "event",
+   "hospitality",
+   "culture",
+   "music",
+   "physical-product",
+   "ecommerce",
+   "nonprofit",
+   "education",
+   "personal-portfolio",
+   "consumer-app",
+   "other"
+  ],
+  "tones": [
+   "warm",
+   "playful",
+   "editorial"
+  ],
+  "needs": [],
+  "idea": "Find the printed or physical artefact that already exists in the subject's world and build the page as that thing. A wedding site is the invitation card. A restaurant is its menu. A conference is the ticket; a record is its sleeve; a shop is the receipt or the swing tag; an archive is a stack of tabbed folders; a course is the syllabus sheet. The artefact supplies everything a template would otherwise invent: its proportions, its typographic manners, its way of grouping information. Visitors recognise the object instantly, which is why these pages feel specific.",
+  "composition": "The first screen shows the artefact as a single filled panel (paper colour on a contrasting ground) centred or offset, with believable proportions: a card at 5:7, a ticket at about 2.2:1 with a notch cut by `clip-path`, a menu as a tall sheet. All primary content lives on it, set the way that object is set: centred and symmetrical for an invitation, in tidy aligned columns for a menu or ticket. The ground behind is a flat colour or one full-bleed photograph. As the page continues, each section is another piece of the same stationery: a second card, a tear-off stub, a folded panel, always filled shapes with real edges (straight, notched, scalloped, perforated by a dotted `border` of round dots at 4px or more), never outlined boxes. The footer is the back of the object.",
+  "typography": "Take the manners of the artefact: a bookish serif with small caps avoided, or a blunt condensed face for tickets and posters. Sizes stay within what print would use relative to the panel; the name is large on the panel, details are small and exact.",
+  "typeClasses": [
+   "serif-text",
+   "serif-display",
+   "slab",
+   "condensed-heavy",
+   "grotesk-tight"
+  ],
+  "colour": "Paper and ink plus the ground the paper sits on. Two or three flat colours in total, like a two-colour print job.",
+  "paletteTags": [
+   "two-tone",
+   "earth",
+   "light-neutral"
+  ],
+  "imagery": "Optional. One photograph behind the object, or small photographs placed on it like tipped-in plates. The object itself is the image.",
+  "sectionTags": [
+   "object-led",
+   "type-led",
+   "colour-field"
+  ],
+  "motion": "curtain-footer",
+  "richness": "Recognition. The shaped edges, the print-like alignment and the limited inks make a familiar object out of plain HTML.",
+  "pitfalls": "Choose an artefact that truly belongs to the subject, or it becomes costume. Shape the edges with fills and `clip-path`; an outlined rectangle with a thin border is not an object. Keep text sizes readable on a phone, where the object becomes full width with its shaped edge kept at top and bottom.",
+  "seenIn": [
+   "opl-sarah-matt-wedding",
+   "aww-mosbys-files",
+   "opl-the-deep-end",
+   "opl-weeksync",
+   "opl-le-petit-bleu",
+   "opl-archiv"
+  ],
+  "allow": []
+ },
+ "hero": {
+  "id": "invitation-card-cropped",
+  "name": "Invitation card, cropped",
+  "archetype": "artefact",
+  "directions": [
+   "page-is-the-object"
+  ],
+  "needs": [],
+  "blueprint": "A flat field of one soft colour fills the viewport. Centred on it is a single portrait card in paper colour, 5:7, on columns 4–9, its top edge 190px down and its lower third cut off by the bottom of the viewport, so the page visibly continues as the rest of the card. The card is a filled shape with scalloped inner corners, made with `clip-path` or with four corner circles in the field colour, and no outline. Inside, with 56px padding, everything is centred and symmetrical like letterpress stationery. The two names, or the title, are set in a large italic serif at clamp(56px, 5.6vw, 88px) on two lines, staggered so line one sits left of centre and line two right. Between and beneath them, date, time and place appear as short lines at 15px in sentence case, separated by space and by one solid 10px diamond. The top row sits on the field above the card at 28px margins: a small monogram top-left, three text links centred, and the single action, a solid rectangular button in the ink colour, top-right.",
+  "mobile": "The card becomes full width minus 12px margins, starts 96px down and is still cropped by the bottom edge, with its scalloped top corners kept. The names stay on two lines at 12vw, centred without the stagger, and the details follow at 15px. The monogram sits top-left and the action button top-right on the field; the three links move onto the card's lower part, below the fold.",
+  "headline": "The two names or the title on two lines, up to about 12 characters per line, set as they would be printed on the card.",
+  "motion": "curtain-footer",
+  "seenIn": [
+   "opl-sarah-matt-wedding"
+  ]
+ },
+ "type": {
+  "id": "gambarino-general",
+  "name": "Gambarino / General Sans",
+  "class": "serif-display",
+  "display": {
+   "family": "Gambarino",
+   "source": "fontshare",
+   "slug": "gambarino",
+   "weights": [
+    400
+   ],
+   "italic": false,
+   "settings": "weight 400 (single cut) · tracking -0.02em · leading 0.92 · sentence case",
+   "css": "<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin>\n<link href=\"https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=general-sans@400,500&display=swap\" rel=\"stylesheet\">"
+  },
+  "text": {
+   "family": "General Sans",
+   "source": "fontshare",
+   "slug": "general-sans",
+   "weights": [
+    400,
+    500
+   ],
+   "italic": false,
+   "settings": "400 for body, navigation and buttons, 500 for emphasis · leading 1.5",
+   "css": "<link rel=\"preconnect\" href=\"https://api.fontshare.com\">\n<link rel=\"preconnect\" href=\"https://cdn.fontshare.com\" crossorigin>\n<link href=\"https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap\" rel=\"stylesheet\">\n<link href=\"https://api.fontshare.com/v2/css?f[]=general-sans@400,500&display=swap\" rel=\"stylesheet\">"
+  },
+  "standsInFor": [
+   "PP Editorial New",
+   "Migra"
+  ],
+  "note": "A narrow, sharp display serif for headlines against a small plain sans: a five-to-one jump with nothing between. Suits agencies, bakeries and restaurants, fashion and editorial brands.",
+  "seenIn": [
+   "aww-hilden-kaira",
+   "opl-tab-kitchen-bakery",
+   "opl-glide-typeface",
+   "aww-milledollars"
+  ],
+  "links": [
+   "https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap",
+   "https://api.fontshare.com/v2/css?f[]=general-sans@400,500&display=swap"
+  ],
+  "scale": {
+   "step-small": "clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem)",
+   "step-body": "clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem)",
+   "step-lead": "clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)",
+   "step-head": "clamp(2rem, 1.3rem + 3.2vw, 4rem)"
+  }
+ },
+ "palette": {
+  "id": "orange-field-black",
+  "name": "Orange and black",
+  "tags": [
+   "single-field",
+   "two-tone"
+  ],
+  "bg": "#ff7a1f",
+  "surface": "#ff8633",
+  "ink": "#050f16",
+  "muted": "#5a2306",
+  "accent": "#050f16",
+  "accentInk": "#ff7a1f",
+  "fields": [
+   {
+    "bg": "#ffffff",
+    "ink": "#050f16"
+   }
+  ],
+  "note": "Hot orange is the page: one flat field with blue-black type, flipping at a hard horizontal seam to a white section when the content needs a rest. The button is a solid block of the same blue-black with orange text, and every other colour comes from the objects shown.",
+  "seenIn": [
+   "opl-postaway",
+   "opl-the-new-industrials"
+  ]
+ },
+ "photos": {
+  "set": "people",
+  "title": "People",
+  "note": "figures, silhouettes and portraits, mostly unposed",
+  "treatment": null,
+  "others": [
+   "fog-and-quiet",
+   "field-and-farm",
+   "hands-and-making",
+   "architecture"
+  ],
+  "photos": [
+   {
+    "id": 669,
+    "alt": "Person in a mustard jacket and grey beanie seen from behind in fog",
+    "tone": "light",
+    "colours": [
+     "mustard",
+     "pale grey",
+     "white"
+    ],
+    "mono": false,
+    "calm": "left",
+    "quality": 5,
+    "ratio": 1.41,
+    "by": "Luke Pamer",
+    "page": "https://unsplash.com/photos/oUhr-qMTJoc"
+   },
+   {
+    "id": 338,
+    "alt": "Person in a hooded coat seen from behind facing a misty sea",
+    "tone": "mid",
+    "colours": [
+     "slate blue",
+     "grey",
+     "charcoal"
+    ],
+    "mono": false,
+    "calm": "left",
+    "quality": 5,
+    "ratio": 1.5,
+    "by": "Patryk Sobczak",
+    "page": "https://unsplash.com/photos/9VPtNW84vGI"
+   },
+   {
+    "id": 726,
+    "alt": "Person in a red jacket standing in a snowy, misty landscape",
+    "tone": "light",
+    "colours": [
+     "white",
+     "pale grey",
+     "red"
+    ],
+    "mono": false,
+    "calm": "bottom",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Caleb George",
+    "page": "https://unsplash.com/photos/BrXiun04yr4"
+   },
+   {
+    "id": 375,
+    "alt": "Person in a hooded jacket sitting among white daisies at dusk",
+    "tone": "dark",
+    "colours": [
+     "navy",
+     "dark green",
+     "white"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Wellington Sanipe",
+    "page": "https://unsplash.com/photos/3jUTmrmdNVg"
+   },
+   {
+    "id": 1006,
+    "alt": "Person sitting on a rocky overlook above misty forested hills",
+    "tone": "mid",
+    "colours": [
+     "dusky purple",
+     "olive green",
+     "grey"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Vladimir Kudinov",
+    "page": "https://unsplash.com/photos/-wWRHIUklxM"
+   },
+   {
+    "id": 1005,
+    "alt": "Person in a scarf seen from behind, looking at the sea at dusk",
+    "tone": "mid",
+    "colours": [
+     "warm sand",
+     "dark brown",
+     "pale peach"
+    ],
+    "mono": false,
+    "calm": "left",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Matthew Wiebe",
+    "page": "https://unsplash.com/photos/tBtuxtLvAZs"
+   },
+   {
+    "id": 473,
+    "alt": "Person in dark clothes standing on a jetty facing misty mountains",
+    "tone": "mid",
+    "colours": [
+     "slate blue",
+     "black",
+     "pale grey"
+    ],
+    "mono": false,
+    "calm": "right",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Todd Quackenbush",
+    "page": "https://unsplash.com/photos/Nk5rSNq13sM"
+   },
+   {
+    "id": 91,
+    "alt": "Person in dark jacket holding a vintage twin-lens camera, monochrome",
+    "tone": "mid",
+    "colours": [
+     "grey",
+     "black"
+    ],
+    "mono": true,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Jennifer Trovato",
+    "page": "https://unsplash.com/photos/baRYCsjO6z4"
+   }
+  ]
+ },
+ "motion": {
+  "id": "curtain-footer",
+  "name": "Curtain footer",
+  "description": "The page content slides up like a sheet to uncover the footer waiting beneath it, so the last screen is revealed rather than scrolled to. Build with a sticky footer at the bottom and a main element with its own background and a higher stacking order. No JavaScript."
+ },
+ "sections": [
+  {
+   "id": "intro-title-note-facts",
+   "role": "intro",
+   "name": "Title, note, facts row",
+   "shape": "split",
+   "tags": [
+    "type-led",
+    "quiet"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "editorial-report",
+    "name-as-monument",
+    "uneven-photographs",
+    "type-only-statement"
+   ],
+   "needs": [],
+   "blueprint": "First row: a heading of two to four words in a light weight at clamp(44px, 5vw, 76px) sits on the left margin in columns 1–6; a three-line paragraph at 16px, 260px wide, sits in columns 10–12 with its last line on the heading's baseline. Columns 7–9 stay empty. 120px lower, a second row sets three or four facts (a date, a time, a place, a price) as large light text at clamp(28px, 3vw, 44px), spread across the 12 columns with `justify-content: space-between`. Each fact has a one-line explanation at 14px directly under it in the soft ink, left-aligned to the fact. Facts are separated only by the space between them, so the row reads like the line of times on a printed programme. A photograph may start under the right half of the facts row, 5 columns wide at 4:3. Padding 140px top, 120px bottom.",
+   "mobile": "Heading at 11vw on the left margin; the note follows directly under it at 16px, full width. The facts become a two-column grid with a 32px row gap, each fact at 26px with its explanation beneath. Any photograph goes last, full width.",
+   "seenIn": [
+    "opl-sarah-matt-wedding",
+    "aww-no-art"
+   ]
+  },
+  {
+   "id": "contact-visit-card-on-photograph",
+   "role": "contact",
+   "name": "Visit card on a photograph",
+   "shape": "full-bleed",
+   "tags": [
+    "photo-led",
+    "object-led"
+   ],
+   "directions": [
+    "place-carries-it",
+    "dark-room",
+    "page-is-the-object",
+    "pinned-poster",
+    "hero-object"
+   ],
+   "needs": [],
+   "blueprint": "A full-bleed photograph of the place, 100vw by 100svh, carries one solid card and nothing else. The card is a filled panel in the paper colour, fully opaque, 380px wide with 8px corners and 32px padding, placed in the upper-right corner 60px from the top and right edges (or the upper-left: pick the corner where the photograph is calmest). It holds, top to bottom: a two- or three-word title at 28px in a light weight; the address on two lines at 16px; the opening hours as three rows with days at the left and times right-aligned in tabular figures; the phone number; then, flush with the card's bottom edge and spanning its width, a solid booking button 52px tall. The card may be `position: sticky; top: 60px` inside a taller section so it holds while the photograph scrolls beneath it. The photograph's focal point must stay clear of the card. No heading outside the card.",
+   "mobile": "The photograph is 100vw by 70svh. The card leaves the corner: it spans the width with 16px margins and overlaps the photograph's bottom edge by 80px, so image and card interlock. The booking button is full width, 56px tall, at the card's bottom.",
+   "seenIn": [
+    "opl-the-deep-end",
+    "opl-madie"
+   ]
+  },
+  {
+   "id": "footer-back-of-the-card",
+   "role": "footer",
+   "name": "The back of the card",
+   "shape": "stack",
+   "tags": [
+    "object-led",
+    "quiet"
+   ],
+   "directions": [
+    "page-is-the-object",
+    "specimen-catalogue",
+    "borrowed-category",
+    "hero-object",
+    "place-carries-it"
+   ],
+   "needs": [],
+   "blueprint": "The footer is the reverse side of the page's artefact, laid out as the back of a postcard. A paper-coloured panel spans columns 2–11 on the contrasting ground, about 420px tall, its top edge cut into a row of twelve semicircular scallops (an inline SVG path or `clip-path`, each scallop about 100px wide). The panel is divided by space into two halves. Left half: a short sign-off of two to four words at 32px, then two or three lines at 16px, written like a message. Right half: the address block, four left-aligned lines at 18px with 12px between them, each line a link (email, telephone, street, social); above it in the top-right corner, a stamp: one small photograph, 3:4 and 88px wide, with a 6px paper-coloured margin. Along the panel's bottom edge, a single centred line at 12px gives the copyright like a printer's imprint.",
+   "mobile": "The panel runs full width with six scallops across its top edge. The stamp sits top-right at 64px wide; the sign-off and message come first, then the address lines at 17px beneath them, then the imprint line centred at 12px.",
+   "seenIn": [
+    "opl-zara-webb",
+    "opl-britt-taylor",
+    "opl-sarah-matt-wedding",
+    "opl-transport"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "opl-sarah-matt-wedding",
+   "name": "Sarah & Matt Wedding",
+   "url": "https://sarahandmatt.wedding",
+   "source": "One Page Love",
+   "kind": "event",
+   "score": 8,
+   "idea": "The site is the invitation: a letterpress-style card rendered as a physical object opens the page, and its ornaments, rules and small typographic parts become the components for everything after it.",
+   "mood": [
+    "romantic",
+    "crafted",
+    "warm",
+    "stationery-like",
+    "intimate"
+   ],
+   "archetype": "product-object-centre",
+   "hero": "A flat blush-pink field fills the viewport. Top-left sits a gold filigree monogram about 120px square; three plain nav links are centred on the same line; a solid gold rectangular RSVP button sits top-right. Below, centred, a portrait invitation card half the viewport wide starts 200px down and is cropped by the bottom edge, with a soft halo shadow and a debossed border with scalloped inner corners. On the card: the two names in a large italic swash serif, staggered left and right against two ornamental roundels, separated by hairline rules carrying tiny wide-tracked caps for date and time.",
+   "type": "Card names in a high-contrast italic serif with swash capitals (drawn in canvas); section titles in a light roman serif around 5vw; Instrument Sans 18px for body and nav; Spezia Extended in tiny tracked caps for dates and addresses. Three clear tiers.",
+   "colour": "#e9c4be #faf7f5 #0d0b0a #241c22 #9b7948 #4f5660 — Each section takes its own field: blush pink hero, warm cream story, dark plum venue details, black footer. Gold is reserved for ornament and the RSVP button; a coral button appears once on dark.",
+   "imagery": "A canvas-rendered paper card with emboss and grain; a warm, grainy golden-field landscape as a full-bleed band behind it; candid couple snapshots in equal portrait cards with rounded corners; night venue photos overlapping at two sizes.",
+   "layout": "Outer margins of about 50px. The hero is centred; the story is a horizontally scrolling row of text-above-photo columns; the details section splits roughly 45/55 between text and overlapping photos. Large vertical gaps separate sections, each on its own colour field.",
+   "sections": [
+    {
+     "role": "other",
+     "description": "A story timeline. A small sans heading sits at the left margin with two outlined circular arrow buttons at the right. Under it runs a full-width ruler of fine vertical tick marks acting as a scrubber. Below, a horizontally scrolling row of columns about 280px wide: each has a one-line bold caption, three lines of small grey text, a large gap, then a portrait photo with 12px rounded corners. Columns bleed off both edges; one photo is black and white."
+    },
+    {
+     "role": "intro",
+     "description": "A cream field with a single light serif title at roughly 5vw on the left margin and a three-line small sans paragraph pushed to the far-right column on the same baseline, leaving the middle empty. Below, the date in medium sans introduces a row of large light-serif times divided by vertical hairlines, with a dark rounded image card starting in the right half."
+    },
+    {
+     "role": "faq",
+     "description": "On a dark plum field, split in two. Left 45%: small sans labels for arrival and ceremony, an outlined box holding venue, street and city in tiny tracked extended caps separated by slashes, then a five-row accordion with hairline dividers and chevrons, then a coral button beside a text link. Right 55%: a tall night photo of the venue facade bleeding off the top, with a smaller square photo overlapping its lower-right corner."
+    },
+    {
+     "role": "footer",
+     "description": "A band of grainy rose-brown texture, then black. A dim monogram at left, a four-link column at centre, and at right the date, boxed address and time lines repeated from the invitation in tracked extended caps with hairlines. The couple's names run across the full width at about 22vw in the italic swash serif, filled with a blue-gold glitter texture and cropped by the bottom edge."
+    }
+   ],
+   "steal": [
+    "Make a real-world object (an invitation, a ticket, a label) the hero and reuse its small typographic parts, such as a boxed address line with slashes, as recurring components down the page.",
+    "Repeat the hero lettering in the footer at full-bleed scale with a material texture fill, cropped by the bottom edge.",
+    "Place a section title at the left margin and its short paragraph in the far-right column on the same baseline, leaving the centre empty."
+   ]
+  },
+  {
+   "id": "opl-le-petit-bleu",
+   "name": "Le Petit Bleu",
+   "url": "https://www.lepetitbleucafe.com/",
+   "source": "One Page Love",
+   "kind": "restaurant",
+   "score": 7.8,
+   "idea": "The cafe's teal-and-white stripes become the whole system: one teal ink on cream, everything boxed in thin double outlines like printed menu cards, beside a permanently visible photo of the room.",
+   "mood": [
+    "cheerful",
+    "charming",
+    "retro",
+    "tidy",
+    "sunny"
+   ],
+   "archetype": "split-text-media",
+   "hero": "Viewport split 50/50 with 12px gaps. Left: a cream panel with a thin pale-teal outline and rounded corners. Inside, a second outlined box is the nav bar: two-line hamburger left, teal brush-script logo about 300px wide centred, a caps order link right. Below, a two-line light serif headline at about 3.5vw, centred, in teal, then two centred stacks, each a bold caps label, a serif line and a solid teal button wrapped in a second thin outline. Right: a full-height rounded photo of a striped booth, with an outlined hours bar across its top, three slide dots bottom-left and a white address card bottom-right.",
+   "type": "Self Modern, a light bookish serif, for headline and 15px body; Matter SQ bold caps for labels and buttons; Archive Mono Pro typewriter caps for menu rows; a brush-script logo. Section titles are tall condensed serif caps sized so four to seven letters fill the column.",
+   "colour": "#fcfbf7 #13a7b2 #058599 #cfe5e7 #e9b81f — Cream paper and a single teal used for every word, rule, outline and button; no black anywhere. Yellow, floral reds and marble enter only through the interior photographs.",
+   "imagery": "Bright, saturated interior and food photographs; the right-hand panel is a full-height slideshow with rounded corners. Small food shots sit in a horizontal strip, and a fine line drawing of the shopfront with one teal awning fills a card.",
+   "layout": "The left half scrolls as a stack of outlined cream cards (full-width or two-up) with 12px gaps while the right half stays fixed. Card contents are centred. A sticky nav card rides over the stack. On mobile the photo becomes the hero card's background.",
+   "sections": [
+    {
+     "role": "list",
+     "description": "A card containing only the section word in tall condensed serif caps, teal, sized so its four letters fill the column edge to edge. Below it, a stack of full-width outlined rows about 36px high, each with a category name in typewriter mono caps at left and a thin plus sign at right, separated by 6px gaps. Above the title: a ticker row of tiny caps and a strip of four small food photos with rounded corners."
+    },
+    {
+     "role": "about",
+     "description": "The same giant condensed title treatment, then centred serif paragraphs in teal with underlined links in a narrow measure of about 280px. Further down, a landscape photo of the two proprietors with a centred two-line caption in tiny sans, followed by more centred paragraphs. All of it lives in the left half while the right photo panel has advanced to a shelf-wall image."
+    },
+    {
+     "role": "gallery",
+     "description": "A header row with a tiny bold caps label at left and a script follow-us link with arrow at right, then three portrait images (about 3:5) with 12px rounded corners in a row, the third cropped by the column edge to imply a carousel. Directly below, the next giant section title begins and is cropped by the viewport."
+    }
+   ],
+   "steal": [
+    "Print everything in one brand ink on cream, including body text, rules and buttons, and let photographs supply the other colours.",
+    "Wrap buttons and panels in a second thin outline offset by a few pixels to get a printed-ticket feel.",
+    "Keep a tall photo panel fixed on one half and scroll a stack of cards on the other, swapping the photo as sections change."
+   ]
+  },
+  {
+   "id": "aww-jesper-landberg-4",
+   "name": "Jesper Landberg",
+   "url": "http://jesperlandberg.com",
+   "source": "Awwwards Site of the Day",
+   "kind": "personal-portfolio",
+   "score": 7.5,
+   "idea": "Project screenshots become bent, rippling panels on a horizontal WebGL strip floating above a perspective grid floor in the dark.",
+   "mood": [
+    "dark",
+    "spatial",
+    "sleek",
+    "minimal"
+   ],
+   "archetype": "immersive-webgl",
+   "hero": "Black viewport. Four tiny bold uppercase labels sit in the corners with 77px side and 44px vertical margins: name top-left, profile top-right, a view toggle bottom-left, newsletter bottom-right. Across the middle runs a horizontal strip of project panels rendered in WebGL: the centre panel is about 47% of the viewport wide and 52% tall with rounded corners, its top and bottom edges rippling as if the sheet were flexing; neighbours are cropped by the screen edges and angled away. Each panel carries a white project title bottom-left and a round arrow button bottom-right. Below, a white-line perspective grid floor recedes to a dark horizon. The top quarter is empty.",
+   "type": "A single grotesk (digest reports only 'sans'): bold uppercase corner labels at about 11px and project titles at roughly 18 to 27px with tight tracking. No headline at all; the largest type on screen belongs to the project screenshots themselves.",
+   "colour": "#000000 #181818 #373637 #ffffff — Pure black stage with white micro-labels and faint grey grid lines; all colour comes from the project panels, which glow like screens in a dark room.",
+   "imagery": "Website screenshots and videos used as textures on curved, wavy, rounded-corner panels in a 3D scene, with soft vignette shading at panel edges and a wireframe grid floor beneath.",
+   "layout": "A single-screen stage: corner labels frame a horizontal band of panels through the vertical centre, and scroll moves the strip sideways rather than the page down. A toggle switches to a full list. On mobile the projects become a vertical stack of rounded cards.",
+   "sections": [
+    {
+     "role": "work",
+     "description": "As the strip advances each panel bends differently: the one nearest centre faces the viewer and is largest, panels toward the edges rotate away and shrink, and all share a sine-wave distortion along their top and bottom edges. Gaps between panels are about 10px. Panels whose media has not loaded show as flat pink or starfield fills, still carrying title and arrow button."
+    },
+    {
+     "role": "gallery",
+     "description": "On a 390px screen the 3D strip is replaced by a vertical feed: full-width cards with 30px side margins and about 20px radius, each roughly 300px tall, stacked with 30px gaps. The project title sits bottom-left inside the card over a dark gradient scrim, with a black circular arrow button bottom-right. The four corner labels remain fixed over the feed."
+    }
+   ],
+   "steal": [
+    "Reduce all chrome to four tiny uppercase labels pinned in the corners so the work fills the stage.",
+    "Distort carousel panels with a wave tied to scroll velocity so the gallery feels like flexible sheets rather than rigid slides.",
+    "Ground a floating gallery with a faint perspective grid floor to give depth on an otherwise black screen."
+   ],
+   "media": "One fixed canvas covers the screen and holds about eight project cards on a ring around the camera, each textured with a muted looping screen recording of the site; the cards fill the band from y≈220 to y≈690 edge to edge, the centre one about 670x463 (24% of the area), with neighbours bleeding off both edges over a perspective floor grid. No img or video elements on desktop.",
+   "motion": "A short segmented loader, then the whole ring cuts in by 2.5s with no fly-through (load 844ms). The document does not scroll: the wheel turns the ring about one card per step in an endless loop, as a smooth inertial lerp, and fast steps put an extra wave into the card edges that relaxes when the ring stops; DOM transitions are only .15-.5s on cubic-bezier(.23,1,.32,1)."
+  }
+ ],
+ "scenes": []
+}

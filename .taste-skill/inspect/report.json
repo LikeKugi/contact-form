@@ -1,0 +1,1417 @@
+{
+ "url": "index.html",
+ "at": "2026-10-31T15:49:56.342Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.26,
+    0.87,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2795,
+     "screens": 3.1,
+     "words": 183,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "autograph-letter.jpg",
+      "letter-with-drawing-of-whistler-menacing-du.jpg",
+      "pen-cancellation-full.jpg",
+      "germany-1931-rletter-hamburg-minr414-420-b002.jp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Write to me",
+     "words": 3,
+     "chars": 11,
+     "lines": 1,
+     "size": 80.6,
+     "vw": 5.6,
+     "font": "Gambarino",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.26,
+     "top": 269,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Write to me",
+     "words": 3,
+     "lines": 1,
+     "size": 80.6,
+     "font": "Gambarino"
+    },
+    "headings": [
+     {
+      "text": "Write to me",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 80.6,
+      "vw": 5.6,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 269,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "48h",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 440,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "1894",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 440,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "∞",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 440,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Gambarino",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      17,
+      19,
+      26,
+      64,
+      81
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.5
+     },
+     "measureChars": 79,
+     "max": {
+      "size": 80.6,
+      "vw": 5.6,
+      "font": "Gambarino",
+      "text": "Write to me"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ff7a1f",
+     "bodyBgHsl": {
+      "h": 24,
+      "s": 1,
+      "l": 0.56
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ff7a1f",
+       "top": 0,
+       "hsl": {
+        "h": 24,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#050f16",
+       "top": 1951,
+       "hsl": {
+        "h": 205,
+        "s": 0.63,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 2077,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a2306",
+       "share": 0.61
+      },
+      {
+       "color": "#050f16",
+       "share": 0.38
+      },
+      {
+       "color": "#ff7a1f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#050f16",
+      "hsl": {
+       "h": 205,
+       "s": 0.63,
+       "l": 0.05
+      },
+      "fg": "#ff7a1f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 8,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Write"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 8,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 971,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gambarino",
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2795,
+    "margins": {
+     "left": 120,
+     "right": 120
+    },
+    "sections": [
+     {
+      "sel": "header.intro",
+      "tag": "header",
+      "top": 0,
+      "height": 971,
+      "words": 54,
+      "media": 3,
+      "middle": 39,
+      "heading": {
+       "text": "Write to me",
+       "size": 81,
+       "tag": "h1"
+      },
+      "left": 120,
+      "right": 142,
+      "textLeft": 120,
+      "textRight": 142,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact",
+      "tag": "section",
+      "top": 1051,
+      "height": 900,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Send a line",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 532,
+      "right": 532,
+      "textLeft": 532,
+      "textRight": 796,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#back.back",
+      "tag": "footer",
+      "top": 1951,
+      "height": 845,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 120,
+      "right": 120,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Write to me",
+      "size": 81,
+      "top": 269,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 120,
+      "n": 1
+     },
+     {
+      "x": 532,
+      "n": 1
+     },
+     {
+      "x": 920,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.16,
+    "voidBox": {
+     "x": 600,
+     "y": 360,
+     "w": 840,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.4,
+    0.93,
+    1
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2991,
+     "screens": 2.9,
+     "words": 183,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "autograph-letter.jpg",
+      "letter-with-drawing-of-whistler-menacing-du.jpg",
+      "pen-cancellation-full.jpg",
+      "germany-1931-rletter-hamburg-minr414-420-b002.jp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Write to me",
+     "words": 3,
+     "chars": 11,
+     "lines": 1,
+     "size": 56,
+     "vw": 7.3,
+     "font": "Gambarino",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.34,
+     "top": 224,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Write to me",
+     "words": 3,
+     "lines": 1,
+     "size": 56,
+     "font": "Gambarino"
+    },
+    "headings": [
+     {
+      "text": "Write to me",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 56,
+      "vw": 7.3,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 224,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "48h",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 337,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "1894",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 337,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "∞",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.12,
+      "top": 337,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Gambarino",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      17,
+      18,
+      23,
+      45,
+      56
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 16.7,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.5
+     },
+     "measureChars": 74,
+     "max": {
+      "size": 56,
+      "vw": 7.3,
+      "font": "Gambarino",
+      "text": "Write to me"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ff7a1f",
+     "bodyBgHsl": {
+      "h": 24,
+      "s": 1,
+      "l": 0.56
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ff7a1f",
+       "top": 0,
+       "hsl": {
+        "h": 24,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1127,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#050f16",
+       "top": 2091,
+       "hsl": {
+        "h": 205,
+        "s": 0.63,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a2306",
+       "share": 0.61
+      },
+      {
+       "color": "#050f16",
+       "share": 0.38
+      },
+      {
+       "color": "#ff7a1f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#050f16",
+      "hsl": {
+       "h": 205,
+       "s": 0.63,
+       "l": 0.05
+      },
+      "fg": "#ff7a1f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 8,
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Write"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 8,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.1
+     },
+     {
+      "type": "img",
+      "ratio": 0.1
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 1006,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gambarino",
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2991,
+    "margins": {
+     "left": 38,
+     "right": 38
+    },
+    "sections": [
+     {
+      "sel": "header.intro",
+      "tag": "header",
+      "top": 0,
+      "height": 1006,
+      "words": 54,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Write to me",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 38,
+      "right": 54,
+      "textLeft": 38,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact",
+      "tag": "section",
+      "top": 1067,
+      "height": 1024,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Send a line",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 196,
+      "right": 196,
+      "textLeft": 196,
+      "textRight": 463,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#back.back",
+      "tag": "footer",
+      "top": 2091,
+      "height": 900,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 38,
+      "right": 38,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Write to me",
+      "size": 56,
+      "top": 224,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 38,
+      "n": 1
+     },
+     {
+      "x": 196,
+      "n": 1
+     },
+     {
+      "x": 430,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.56,
+    0.84,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 13,
+    "css": 13,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3090,
+     "screens": 3.7,
+     "words": 183,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "autograph-letter.jpg",
+      "letter-with-drawing-of-whistler-menacing-du.jpg",
+      "pen-cancellation-full.jpg",
+      "germany-1931-rletter-hamburg-minr414-420-b002.jp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Write to me",
+     "words": 3,
+     "chars": 11,
+     "lines": 1,
+     "size": 56,
+     "vw": 14.4,
+     "font": "Gambarino",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.67,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Write to me",
+     "words": 3,
+     "lines": 1,
+     "size": 56,
+     "font": "Gambarino"
+    },
+    "headings": [
+     {
+      "text": "Write to me",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.67,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "48h",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 362,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "1894",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 362,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "∞",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 362,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Gambarino",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      16,
+      17,
+      20,
+      33,
+      56
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 16,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.5
+     },
+     "measureChars": 38,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Gambarino",
+      "text": "Write to me"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.04,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ff7a1f",
+     "bodyBgHsl": {
+      "h": 24,
+      "s": 1,
+      "l": 0.56
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ff7a1f",
+       "top": 0,
+       "hsl": {
+        "h": 24,
+        "s": 1,
+        "l": 0.56
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1322,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#050f16",
+       "top": 1942,
+       "hsl": {
+        "h": 205,
+        "s": 0.63,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#5a2306",
+       "share": 0.61
+      },
+      {
+       "color": "#050f16",
+       "share": 0.38
+      },
+      {
+       "color": "#ff7a1f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#050f16",
+      "hsl": {
+       "h": 205,
+       "s": 0.63,
+       "l": 0.05
+      },
+      "fg": "#ff7a1f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 8,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Write"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 8,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.25
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 1282,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gambarino",
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3090,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.intro",
+      "tag": "header",
+      "top": 0,
+      "height": 1282,
+      "words": 49,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Write to me",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact",
+      "tag": "section",
+      "top": 1322,
+      "height": 620,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Send a line",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 237,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#back.back",
+      "tag": "footer",
+      "top": 1942,
+      "height": 1139,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Write to me",
+      "size": 56,
+      "top": 128,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 2
+     },
+     {
+      "x": 48,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 13 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"Write to me\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/likekugi/Documents/projects/learning/free-code-camp/css/contact-form/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/Users/likekugi/Documents/projects/learning/free-code-camp/css/contact-form/.taste-skill/inspect/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/likekugi/Documents/projects/learning/free-code-camp/css/contact-form/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/Users/likekugi/Documents/projects/learning/free-code-camp/css/contact-form/.taste-skill/inspect/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/likekugi/Documents/projects/learning/free-code-camp/css/contact-form/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/Users/likekugi/Documents/projects/learning/free-code-camp/css/contact-form/.taste-skill/inspect/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
