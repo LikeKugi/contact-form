@@ -1,13 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Contact Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Correspondence — write to me</title>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <main class="page">
+    <header class="intro">
+      <div class="topbar">
+        <span class="monogram">Letters</span>
+        <div class="topright">
+          <nav class="topnav" aria-label="Sections">
+            <a href="#back">Address</a>
+          </nav>
+          <a class="cta" href="#contact">Write</a>
+        </div>
+      </div>
 
+      <div class="intro-card">
+        <h1>Write to me</h1>
+        <p class="note">A contact page dressed as a letter. Three fields, one stamp, and
+          a reply in ink. Tell me what you are making, or just say hello.</p>
+      </div>
+
+      <div class="facts">
+        <div class="fact">
+          <span class="fact-num">48h</span>
+          <span class="fact-cap">a reply, usually</span>
+        </div>
+        <div class="fact">
+          <span class="fact-num">1894</span>
+          <span class="fact-cap">first letter sent</span>
+        </div>
+        <div class="fact">
+          <span class="fact-num">&#8734;</span>
+          <span class="fact-cap">stamps kept</span>
+        </div>
+      </div>
+
+      <div class="plates">
+        <figure class="plate">
+          <img src="assets/autograph-letter.jpg" width="1920" height="1536"
+               alt="A handwritten autograph letter on aged paper, signed in ink." loading="lazy" decoding="async">
+          <figcaption>An autograph letter, 1875</figcaption>
+        </figure>
+        <figure class="plate">
+          <img src="assets/letter-with-drawing-of-whistler-menacing-du.jpg" width="1920" height="1505"
+               alt="A letter written in pen and brown ink with a small drawn caricature." loading="lazy" decoding="async">
+          <figcaption>A letter with a drawing, 1894</figcaption>
+        </figure>
+        <figure class="plate">
+          <img src="assets/pen-cancellation-full.jpg" width="1056" height="504"
+               alt="A folded letter from 1858 with a pen cancellation across the first Russian postage stamp." loading="lazy" decoding="async">
+          <figcaption>A cancelled folded letter, 1858</figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <section class="contact" id="contact">
+      <img class="contact-photo" src="assets/germany-1931-rletter-hamburg-minr414-420-b002.jpg"
+           width="1920" height="1363" alt="A registered envelope from Hamburg, 1931, its corners franked with stamps and a registration label.">
+      <div class="form-container">
+        <form action="#" method="post" novalidate>
+          <h2>Send a line</h2>
+
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="back" id="back">
+    <svg class="scallop" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,60 L0,50 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 a50 50 0 0 1 100 0 L1200,60 Z" />
+    </svg>
+    <div class="back-panel">
+      <div class="back-left">
+        <p class="signoff">Yours, in ink</p>
+        <p class="message">Thank you for the letter. I read every one and answer
+          the ones that ask a question. Post the form, or just write back soon.</p>
+      </div>
+
+      <div class="back-right">
+        <img class="stamp" src="assets/parktown-victoria-pillarbox.jpg" width="1680" height="2100"
+             alt="A Victorian red pillar post box in Oxford, used here as a postage stamp." loading="lazy" decoding="async">
+        <div class="addr-block">
+          <h2>Reply to</h2>
+          <address class="addr">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="tel:+440000000000">+44 0000 000000</a>
+            <span>14 Inkwell Lane</span>
+            <span>Brighton, BN1 4LX</span>
+          </address>
+        </div>
+      </div>
+
+      <p class="imprint">Printed from the open collections &middot; 2026</p>
+
+      <p class="credits">Pictures:
+        <a href="https://commons.wikimedia.org/wiki/File:Pen-cancellation-full.jpg">&ldquo;Pen-cancellation-full&rdquo;</a> by Russian government, <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>, via Wikimedia Commons;
+        <a href="https://commons.wikimedia.org/wiki/File:Germany_1931_RLetter_Hamburg_MiNr414%26420_B002.jpg">&ldquo;Germany 1931 RLetter Hamburg&rdquo;</a> by C.H. Ebersl&ouml;h Company, Deutsche Reichspost, <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>, via Wikimedia Commons;
+        <a href="https://www.artic.edu/artworks/14361">&ldquo;Letter with Drawing of Whistler Menacing Du Maurier&rdquo;</a> by George Du Maurier, 1894, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via Art Institute of Chicago;
+        <a href="https://www.artic.edu/artworks/32030">&ldquo;Autograph Letter&rdquo;</a> by Julia Margaret Cameron, 1875, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, via Art Institute of Chicago;
+        <a href="https://commons.wikimedia.org/wiki/File:ParkTown_Victoria_pillarbox.jpg">&ldquo;ParkTown Victoria pillarbox&rdquo;</a> by Motacilla, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons.</p>
+    </div>
+  </footer>
 </body>
-
 </html>
