@@ -251,7 +251,7 @@ img { display: block; max-width: 100%; }
   z-index: 1;
   width: min(440px, calc(100% - 2 * var(--pad)));
   margin: 60px auto;
-  background: var(--paper);
+  background-color: var(--paper);
   border-radius: var(--radius);
   padding: 32px;
 }
@@ -284,7 +284,7 @@ input:focus, textarea:focus { outline: none; border-color: var(--bg); }
 
 button {
   align-self: flex-start;
-  background: var(--ink);
+  background-color: var(--ink);
   color: #ff7a1f;
   font-family: inherit;
   font-size: var(--step-body);
@@ -296,7 +296,7 @@ button {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-button:hover { background: var(--bg); color: var(--ink); }
+button:hover { background-color: var(--bg); color: var(--ink); }
 
 /* ---- Entrance motion (plays on load, or on scroll where supported) ---- */
 @keyframes rise {
